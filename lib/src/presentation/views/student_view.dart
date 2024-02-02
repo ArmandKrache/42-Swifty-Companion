@@ -83,7 +83,7 @@ class StudentView extends HookWidget {
                 ),
               ),
               Transform.translate(
-                offset: const Offset(0, -35),
+                offset: const Offset(0, -40),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
@@ -97,22 +97,25 @@ class StudentView extends HookWidget {
                   ],
                 ),
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  Container(
-                    width: 8,
-                    height: 8,
-                    decoration: BoxDecoration(
-                      color: student.location == "" ? AppColors.alert : AppColors.valid,
-                      borderRadius: BorderRadius.circular(8)
+              Transform.translate(
+                offset: const Offset(0, -15),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Container(
+                      width: 8,
+                      height: 8,
+                      decoration: BoxDecoration(
+                        color: student.location == "" ? AppColors.alert : AppColors.valid,
+                        borderRadius: BorderRadius.circular(8)
+                      ),
                     ),
-                  ),
-                  const SizedBox(width: 4,),
-                  Text(student.location != "" ? student.location : tr("student.unavailable"),
-                    style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 12),),
-                  const SizedBox(width: 8,)
-                ],
+                    const SizedBox(width: 4,),
+                    Text(student.location != "" ? student.location : tr("student.unavailable"),
+                      style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 12),),
+                    const SizedBox(width: 8,)
+                  ],
+                ),
               )
             ],
           ),
@@ -200,6 +203,7 @@ class StudentView extends HookWidget {
                       ),
                     ],
                   ),
+                  const SizedBox(height: 24),
                   _buildProjectsWidget(student),
                   const SizedBox(height: 24),
                   _buildSkillsWidget(student),
@@ -237,13 +241,13 @@ class StudentView extends HookWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(tr("student.projects"), style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18),),
-        const SizedBox(height: 8,),
+        const SizedBox(height: 24,),
         SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: Row(
             children: [
               for (int i = 0; i < projects.length; i++)
-                _projectCardWidget(projects[i])
+                _projectCardWidget(projects[i], i)
             ],
           ),
         ),
@@ -251,10 +255,10 @@ class StudentView extends HookWidget {
     );
   }
 
-  Widget _projectCardWidget(Project project) {
+  Widget _projectCardWidget(Project project, int index) {
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 4),
-      padding: const EdgeInsets.all(2),
+      margin: EdgeInsets.only(left: index == 0 ? 0 :  8, right: 8),
+      padding: const EdgeInsets.all(8),
       width: 192,
       height: 128,
       decoration: BoxDecoration(
@@ -269,7 +273,7 @@ class StudentView extends HookWidget {
             style: const TextStyle(fontWeight: FontWeight.bold),
           ),
           Center(child: Text(project.mark.toString(),
-            style: TextStyle(color: getProjectColor(project.status), fontWeight: FontWeight.bold, fontSize: 32),
+            style: TextStyle(color: getProjectColor(project.status), fontWeight: FontWeight.bold, fontSize: 28),
           )),
           Align(
               alignment: Alignment.centerRight,
@@ -318,11 +322,11 @@ class StudentView extends HookWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(tr("student.skills"), style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18),),
-        const SizedBox(height: 4,),
+        const SizedBox(height: 24,),
         noData ? Center(child: Text(tr("errors.no_data_found"), style: const TextStyle(color: Colors.grey),),)  :
         Center(
           child: AspectRatio(
-            aspectRatio: 1.3,
+            aspectRatio: 1.42,
             child: RadarChart(
               RadarChartData(
                 dataSets: dataSets,
@@ -351,7 +355,7 @@ class StudentView extends HookWidget {
   List<Widget> _buildContactWidgets(StudentDetails student) {
     return [
       Text(tr("student.contact"), style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18),),
-      const SizedBox(height: 4,),
+      const SizedBox(height: 24,),
       Container(
         width: double.maxFinite,
         padding: EdgeInsets.all(16),
@@ -364,7 +368,15 @@ class StudentView extends HookWidget {
           children: [
             Row(
               children: [
-                const Icon(Icons.phone_outlined, color: AppColors.primary,),
+                Container(
+                  width: 32,
+                  height: 32,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(16)
+                  ),
+                    child: const Icon(Icons.phone_outlined, size: 20,)
+                ),
                 const SizedBox(width: 8,),
                 Text(student.phone),
               ],
@@ -372,7 +384,15 @@ class StudentView extends HookWidget {
             const SizedBox(height: 8,),
             Row(
               children: [
-                const Icon(Icons.email_outlined, color: AppColors.primary,),
+                Container(
+                    width: 32,
+                    height: 32,
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(16)
+                    ),
+                    child: const Icon(Icons.email_outlined, size: 20,)
+                ),
                 const SizedBox(width: 8,),
                 Text(student.email),
               ],

@@ -111,9 +111,10 @@ class HomepageView extends HookWidget {
   Widget _buildStudentSearchWidget(HomepageCubit homepageCubit, TextEditingController searchController) {
     List<Student> students = homepageCubit.state.students ?? [];
     return Material(
-      elevation: 2,
+      elevation: 4,
       color: Colors.white,
       surfaceTintColor: Colors.white,
+      shadowColor: Colors.black87.withOpacity(0.25),
       child: Padding(
         padding: const EdgeInsets.only(left: 16.0, right: 16.0, top: 8, bottom: 24),
         child: SizedBox(
@@ -243,7 +244,9 @@ class HomepageView extends HookWidget {
                 Text(student.login),
                 Text(student.email),
               ],
-            )
+            ),
+            const Expanded(child: SizedBox()),
+            const Icon(Icons.arrow_forward_ios, size: 16,)
           ],
         ),
       ),

@@ -46,11 +46,11 @@ class EventCardWidget extends StatelessWidget {
 
     return Container(
       padding: const EdgeInsets.all(12),
-      margin: const EdgeInsets.symmetric(vertical: 4),
+      margin: const EdgeInsets.symmetric(vertical: 8),
       width: double.maxFinite,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(4),
-        color: borderColor.withOpacity(0.1)
+        color: Colors.grey.withOpacity(0.05)
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -58,11 +58,11 @@ class EventCardWidget extends StatelessWidget {
           RichText(text: TextSpan(
             children: [
               TextSpan(text: AppStrings.getEventKind(event.kind), style: TextStyle(fontWeight: FontWeight.bold, color: borderColor),),
-              TextSpan(text:  " - ${event.name}", style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.black87),),
+              TextSpan(text:  " - ${event.name}", style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.black87, height: 1.5),),
             ],
           ),
           ),
-          const SizedBox(height: 4,),
+          const SizedBox(height: 8,),
           Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -71,7 +71,7 @@ class EventCardWidget extends StatelessWidget {
               Expanded(child: Text(event.location))
             ],
           ),
-          const SizedBox(height: 4,),
+          const SizedBox(height: 8,),
           Row(
             children: [
               const Icon(Icons.calendar_today_outlined, size: 16,),

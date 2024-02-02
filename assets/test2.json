@@ -1,32 +1,170 @@
 [
   {
-    "id": 47,
-    "name": "The Order",
-    "slug": "42cursus-paris-the-order",
-    "image_url": "https://cdn.intra.42.fr/coalition/image/47/order.svg",
-    "cover_url": "https://cdn.intra.42.fr/coalition/cover/47/order_background.jpg",
-    "color": "#FF6950",
-    "score": 108391,
-    "user_id": 99889
+    "id": 20580,
+    "name": "[42Entrepreneurs] Soirée Pizza Start-up 🍕 Spécial FinTech",
+    "description": "Hey 👋\n**42Entrepreneurs** démarre fort 2024 avec un événement dédié à l'entrepreneuriat en FinTech !\n\n**Au programme**\n\n- 🗣️🙋🏽‍♂️ **19h - 20h30** : Partage d'expériences entrepreneuriales en FinTech par des intervenants.\n- 🍕🍻 **20h30 - 22h** : Networking autour de pizzas et bières, dans une ambiance conviviale.\n\n**Inscription obligatoire ici**: https://lu.ma/42e_spn_fintech\n\n👉 **Bon plan**: 50% de réduction pour les étudiants de 42 avec le code *42STUD* (nombre de places limitées).\n\nÀ très vite ! 😉\n\n[English verison 🇬🇧]\nHey 👋\n**42Entrepreneurs** kicks off 2024 with an event dedicated on entrepreneurship in FinTech!\n\n**Event Schedule**\n\n- 🗣️🙋🏽‍♂️ **7 PM - 8:30 PM**: Sharing of entrepreneurial experiences in the FinTech field by speakers.\n- 🍕🍻 **8:30 PM - 10 PM**: Networking with pizza and fresh beers in a relaxed atmosphere.\n\n**Registration required here:** https://lu.ma/42e_spn_fintech\n\n👉 **Bonus**: 50% off for 42 students with the promo code *42STUD* (limited discounted seats).",
+    "location": "BESS - GARAGE Salle,BESS - F0 Café Associatif",
+    "kind": "association",
+    "max_people": null,
+    "nbr_subscribers": 48,
+    "begin_at": "2024-01-16T17:30:00.000Z",
+    "end_at": "2024-01-16T21:00:00.000Z",
+    "campus_ids": [
+      1
+    ],
+    "cursus_ids": [
+      1,
+      21,
+      53
+    ],
+    "created_at": "2023-12-09T17:52:07.855Z",
+    "updated_at": "2024-01-09T12:04:09.005Z",
+    "prohibition_of_cancellation": null,
+    "waitlist": null,
+    "themes": []
   },
   {
-    "id": 12,
-    "name": "The Blobfishes",
-    "slug": "the-blobfishes",
-    "image_url": "https://cdn.intra.42.fr/coalition/image/12/blobfishes.svg",
-    "cover_url": "https://cdn.intra.42.fr/coalition/cover/12/sloths_background.jpg",
-    "color": "#82cce0",
-    "score": 0,
-    "user_id": 66982
+    "id": 20964,
+    "name": "Devenez médiateur ART42",
+    "description": "Vous l'avez remarqué ? 42 abrite une collection de Street Art, prêtée généreusement par Nicolas Laugero Lassere. Ce dernier qui a créé Artistik Rezo (un media), mais aussi le Club (auquel on vous propose l'adhésion). \n\nAvec le temps, il créé ART42, l'anti musée de Street Art chez 42, ouvert au public, gratuitement, via visite guidée une fois par mois.\n\nArt42 recherche des étudiantes et étudiants qui souhaiteraient se former à la mediation culturelle, et ainsi accompagner des groupes en visites un soir par mois.\n\nRDV au café associatif.",
+    "location": "BESS - F0 Café Associatif",
+    "kind": "partnership",
+    "max_people": 42,
+    "nbr_subscribers": 18,
+    "begin_at": "2024-01-17T16:30:00.000Z",
+    "end_at": "2024-01-17T19:30:00.000Z",
+    "campus_ids": [
+      1
+    ],
+    "cursus_ids": [
+      1,
+      21,
+      53
+    ],
+    "created_at": "2024-01-09T08:44:01.368Z",
+    "updated_at": "2024-01-09T08:44:01.383Z",
+    "prohibition_of_cancellation": null,
+    "waitlist": null,
+    "themes": []
   },
   {
-    "id": 4,
-    "name": "The Order",
-    "slug": "the-order",
-    "image_url": "https://cdn.intra.42.fr/coalition/image/4/order.svg",
-    "cover_url": "https://cdn.intra.42.fr/coalition/cover/4/order_background.jpg",
-    "color": "#FF6950",
-    "score": 5375,
-    "user_id": 99889
+    "id": 21106,
+    "name": "42FITNESS - MALLOC TES MUSCLES",
+    "description": "Envie de faire du sport et de se sentir en meilleure forme, le tout en musique et dans une bonne ambiance. Rejoins-nous durant 1 heure pour un entrainement adapté pour les débutants comme les confirmés, chaque séance est différente. Pas besoin de matériel, venez juste en tenue de sport, une bouteille d'eau et plein de bonne volonté !",
+    "location": "BESS - GARAGE Salle",
+    "kind": "association",
+    "max_people": 25,
+    "nbr_subscribers": 0,
+    "begin_at": "2024-01-17T17:30:00.000Z",
+    "end_at": "2024-01-17T18:30:00.000Z",
+    "campus_ids": [
+      1
+    ],
+    "cursus_ids": [
+      1,
+      21,
+      53
+    ],
+    "created_at": "2024-01-16T10:41:36.316Z",
+    "updated_at": "2024-01-16T10:41:36.332Z",
+    "prohibition_of_cancellation": null,
+    "waitlist": null,
+    "themes": []
+  },
+  {
+    "id": 21115,
+    "name": "Slice and Dice - Soirée jeux de sociétés",
+    "description": "*(English version bellow)*\n\nUne soirée (voire nuit, pour les plus ambitieux) dédiée aux jeux de société propice à la convivialité, la stratégie, les trahisons sur des jeux de tout genre allant du party game de 20 minutes aux jeux de conquête, politique et diplomatie galactique. Nous nous retrouvons à Paul F1B.\n\nInfo pratique : \n* Rendez-vous à 20h à Paul F1B\n* Le discord : [Discord Slice and Dice](https://discord.com/invite/c3bMcPW5mp)\n\n \n-- \n\nAn evening (or night, for the more ambitious) dedicated to board games conducive to conviviality, strategy, and betrayals across a variety of games ranging from 20-minute party games to conquest, political, and galactic diplomacy games. We meet at Paul F1B.\n\nFor English speakers, we have games in English, so feel free to join us!\n\nPractical information:\n* Meeting at 8 p.m. at Paul F1B\n* Discord: [Discord Slice and Dice](https://discord.com/invite/c3bMcPW5mp)",
+    "location": "PAUL - F1B Détente",
+    "kind": "association",
+    "max_people": null,
+    "nbr_subscribers": 0,
+    "begin_at": "2024-01-19T19:00:00.000Z",
+    "end_at": "2024-01-20T01:00:00.000Z",
+    "campus_ids": [
+      1
+    ],
+    "cursus_ids": [
+      1,
+      53,
+      21
+    ],
+    "created_at": "2024-01-16T13:11:02.596Z",
+    "updated_at": "2024-01-16T13:11:02.612Z",
+    "prohibition_of_cancellation": null,
+    "waitlist": null,
+    "themes": []
+  },
+  {
+    "id": 21108,
+    "name": "42FITNESS - MALLOC TES MUSCLES",
+    "description": "Envie de faire du sport et de se sentir en meilleure forme, le tout en musique et dans une bonne ambiance. Rejoins-nous durant 1 heure pour un entrainement adapté pour les débutants comme les confirmés, chaque séance est différente. Pas besoin de matériel, venez juste en tenue de sport, une bouteille d'eau et plein de bonne volonté !",
+    "location": "BESS - GARAGE Salle",
+    "kind": "association",
+    "max_people": 25,
+    "nbr_subscribers": 0,
+    "begin_at": "2024-01-24T17:30:00.000Z",
+    "end_at": "2024-01-24T18:30:00.000Z",
+    "campus_ids": [
+      1
+    ],
+    "cursus_ids": [
+      1,
+      21,
+      53
+    ],
+    "created_at": "2024-01-16T10:59:09.052Z",
+    "updated_at": "2024-01-16T10:59:09.069Z",
+    "prohibition_of_cancellation": null,
+    "waitlist": null,
+    "themes": []
+  },
+  {
+    "id": 21035,
+    "name": "Cycle de conférence CYBER oar CITOY.ENS",
+    "description": "**Ce cycle de conférences est organisé par CITOY.ENS en partenariat avec HackademINT et l’ACCIS**\n\n•24/01/2024 - Général Aymeric Bonnemaison, à la tête du Commandement de la cyberdéfense🪖- Le commandement de la Cyber Défense : COMCYBER 🎖\n\nInscriptions obligatoire : https://framaforms.org/formulaire-dinscription-conference-comcyber-24012024-citoyens-hackademint-accis-1703689374\n\n---\n\n• 15/02/2024 - Général COSTEDOAT et Bernard BARBIER, sur l’Histoire de la DT DGSE 📡\n\n• 20/03/2024 - Brillant Marc-Antoine, directeur de VIGINUM  🌐🇫🇷\n\n• 26/03/2024 - Général Christophe Husson, à la tête du Commandement du ministère de l’Intérieur dans le cyberespace (COMCYBER-MI) et de l'Unité nationale cyber de la Gendarmerie nationale • UNCyber 👮🕵️‍♀️\n\n•  03/04/2024 - Le directeur technique de la DGSI - Direction Générale de la Sécurité Intérieure 💻🗂\n\n• 30/04/2024 - Vincent Strubel, directeur de l’ANSSI - Agence nationale de la sécurité des systèmes d'information 🧑‍💻🛡\n\nPour les inscriptions à ces conférences, les liens apparaitront ici : https://linktr.ee/citoy.ens",
+    "location": "📍 ENS - Amphithéâtre Daniel Cohen (Campus Jourdan, 48 bd Jourdan, 75014)",
+    "kind": "extern",
+    "max_people": null,
+    "nbr_subscribers": 24,
+    "begin_at": "2024-01-24T18:00:00.000Z",
+    "end_at": "2024-01-24T19:30:00.000Z",
+    "campus_ids": [
+      1
+    ],
+    "cursus_ids": [
+      1,
+      21,
+      53
+    ],
+    "created_at": "2024-01-12T09:34:38.984Z",
+    "updated_at": "2024-01-12T09:45:21.317Z",
+    "prohibition_of_cancellation": null,
+    "waitlist": null,
+    "themes": []
+  },
+  {
+    "id": 21012,
+    "name": "NFT Paris 2024 x 42",
+    "description": "**NFT Paris, le plus grand événement Web3 en Europe, fait son retour pour une troisième édition au Grand Palais Éphémère.**\n\nNFT Paris revient les 23 et 24 février 2024 au Grand Palais Éphémère, comme l'année précédente. De ses modestes débuts avec 800 participants à une réunion massive de 18 000 personnes en 2023, NFT Paris a connu une croissance exponentielle pour devenir le plus grand événement Web3.\n\nLa première édition de NFT Paris a eu lieu en janvier 2022. Elle a marqué le premier événement NFT à grande échelle en Europe et a réuni plus de 800 participants à Station F. En 2023, la deuxième édition de NFT Paris s'est déroulée dans le lieu le plus emblématique de la culture et des arts en France : le Grand Palais Éphémère, situé au cœur de la capitale française, au pied de la tour Eiffel.\n\nAvec le code \"STU42\", vous profiterez d'une réduction spéciale de 100% sur les tickets Developer (à utiliser directement sur notre billetterie: https://www.nftparis.xyz/ticket-pages/early-bird-ticket).\n\n**Vous devez absolument utiliser votre adresse mail étudiant lors de la réservation du ticket et vous devrez prouver votre statut étudiant (carte étudiante/certificat de scolarité) pour entrer à la conférence.**\n\n---\n\n**NFT Paris, Europe's largest Web3 event, returns for a third edition at the Grand Palais Éphémère.**\n\nNFT Paris is coming back on the 23/24 February 2024 at the Grand Palais Éphémère like last year. From a humble start with 800 attendees to a massive gathering of 18,000 in 2023. NFT Paris has experienced exponential growth and became the largest web3 event.\n\nThe first edition of NFT Paris took place in January 2022. It marked the first large-scale NFT event in Europe and brought together more than 800 participants at Station F. In 2023, NFT Paris’ second edition took place in the most iconic place of culture and the arts in France: the Grand Palais Éphémère, located in the heart of the French capital - at the foot of the Eiffel Tower.\n\nUse code \"STU42\" to benefit from a special 100% discount on Developer tickets (to be used directly on our ticketing service: https://www.nftparis.xyz/ticket-pages/early-bird-ticket).\n\n**You must use your student email address when booking your ticket and you will need to prove your student status (student card/certificate of attendance) to enter the conference**.",
+    "location": "Grand Palais Éphémère",
+    "kind": "event",
+    "max_people": null,
+    "nbr_subscribers": 0,
+    "begin_at": "2024-02-23T08:00:00.000Z",
+    "end_at": "2024-02-24T19:00:00.000Z",
+    "campus_ids": [
+      1
+    ],
+    "cursus_ids": [
+      1,
+      21,
+      53
+    ],
+    "created_at": "2024-01-11T12:58:53.489Z",
+    "updated_at": "2024-01-11T13:00:34.361Z",
+    "prohibition_of_cancellation": null,
+    "waitlist": null,
+    "themes": []
   }
 ]
