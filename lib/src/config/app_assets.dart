@@ -1,6 +1,3 @@
-import 'package:swifty_companion/src/config/app_colors.dart';
-import 'package:swifty_companion/src/domain/models/coalition/coalition.dart';
-
 class AppAssets {
   static const String white42LogoSVG = "assets/images/42_logo.svg";
 

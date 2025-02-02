@@ -1,9 +1,7 @@
-import 'package:swifty_companion/src/config/config.dart';
 import 'package:swifty_companion/src/domain/models/coalition/campus_coalitions_list_response.dart';
 import 'package:swifty_companion/src/domain/models/coalition/user_coalitions_list_response.dart';
 import 'package:swifty_companion/src/domain/models/event/event_list_response.dart';
 import 'package:swifty_companion/src/domain/models/login_response.dart';
-import 'package:swifty_companion/src/domain/models/student/student.dart';
 import 'package:swifty_companion/src/domain/models/student/student_details.dart';
 import 'package:swifty_companion/src/domain/models/student/student_list_response.dart';
 import 'package:swifty_companion/src/domain/models/token_info_response.dart';

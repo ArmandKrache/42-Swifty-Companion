@@ -1,5 +1,4 @@
 import 'package:equatable/equatable.dart';
-import 'package:swifty_companion/src/domain/models/coalition/coalition.dart';
 import 'package:swifty_companion/src/domain/models/event/event.dart';
 
 class EventListResponse extends Equatable {
